@@ -26,3 +26,8 @@ Now you should NOT use this if you need to stage and commit specific files that 
 This also helps devs on your team follow a semantic commit message patter that I have found very usefule 
 
 src: https://seesparkbox.com/foundry/semantic_commit_messages
+
+
+## kill-port 
+`kill-port 8080`
+If you running node and it doesn't shut down properly then you can get processes stuck running on port 3000 or 8080 ... you can use this command to kill the processes without having to remember the individual commands

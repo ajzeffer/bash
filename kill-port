@@ -1,0 +1,4 @@
+#!/bin/bash
+# If node isn't shut down correctly you can get 
+# port 8080 or 3000 can get stuck and need to be manually killed 
+lsof -ti:$1 | xargs kill -9
