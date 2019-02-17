@@ -1,3 +1,9 @@
 #!/bin/bash
+# I find that for a quick scan the typical log is a bit verbose
+# this makes it more readable and easier to grab a particular hash
 
-git log -$1 --oneline
+if [[ -z "$1" ]]; then
+    git log -5 --oneline
+else
+    git log -$1 --oneline
+fi

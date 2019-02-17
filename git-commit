@@ -1,3 +1,6 @@
 #!/bin/bash
+#Stages all changes and then commits files 
+# with a message patter like "feat: cool new feature" 
 
+git add .
 git commit -m "$1:$2"
