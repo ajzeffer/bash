@@ -27,6 +27,13 @@ This also helps devs on your team follow a semantic commit message patter that I
 
 src: https://seesparkbox.com/foundry/semantic_commit_messages
 
+## git-branch
+Using the git branch -a command will give you all of your local branches and give you an indicator which branch you are on ... well if you have 100+ branches then its often times not useful. 
+// Lets not get in to why there are 100+ branches 
+
+```git-branch```
+
+returns just the name of the current branch you are on 
 
 ## kill-port 
 `kill-port 8080`
