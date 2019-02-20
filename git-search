@@ -1,0 +1,4 @@
+#!/bin/bash
+# search branches in local repo 
+echo "searching for branches with $1"
+git branch -a --list | grep  $1

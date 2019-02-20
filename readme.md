@@ -38,3 +38,8 @@ returns just the name of the current branch you are on
 ## kill-port 
 `kill-port 8080`
 If you running node and it doesn't shut down properly then you can get processes stuck running on port 3000 or 8080 ... you can use this command to kill the processes without having to remember the individual commands
+
+## git-search
+Trying to find a particular branch in a local git repository, but have a ton of branches, remotes, etc ... 
+``` git-search cool-branch```
+searches all local branches for any with a name that contains the keyword you pass in 
